@@ -1,0 +1,65 @@
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Allure Reports
+/allure-results/
+/allure-report/
+
+# Test outputs
+screenshots/
+videos/
+downloads/
+traces/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Unwanted framework files
+CLEANUP_SUMMARY.md
+FRAMEWORK_STATUS.md
+IMPLEMENTATION_SUMMARY.md
+.file-cleanup-monitor.md
+fix-framework-errors.mjs
+
+# Removed test directories (framework now uses only smoke tests)
+tests/api/
+tests/web/
+tests/mobile/
+
+# Docker files (not needed)
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml

@@ -1,0 +1,25 @@
+{
+    "baseURL": "http://localhost:3000",
+    "apiBaseURL": "http://localhost:3001/api",
+    "timeout": 15000,
+    "retries": 0,
+    "headless": false,
+    "slowMo": 500,
+    "workers": 1,
+    "screenshots": {
+        "mode": "on",
+        "fullPage": true
+    },
+    "videos": {
+        "mode": "on"
+    },
+    "trace": {
+        "mode": "on"
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "name": "test_db",
+        "username": "test_user"
+    }
+}

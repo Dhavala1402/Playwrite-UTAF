@@ -1,0 +1,38 @@
+{
+    "baseURL": "https://demo.playwright.dev",
+    "apiBaseURL": "https://api.demo.playwright.dev",
+    "timeout": 30000,
+    "retries": 2,
+    "workers": 1,
+    "headless": true,
+    "viewport": {
+        "width": 1280,
+        "height": 720
+    },
+    "slowMo": 0,
+    "screenshots": {
+        "mode": "only-on-failure",
+        "fullPage": true
+    },
+    "videos": {
+        "mode": "retain-on-failure"
+    },
+    "trace": {
+        "mode": "retain-on-failure"
+    },
+    "reporting": {
+        "allureResultsDir": "allure-results",
+        "allureReportDir": "allure-report",
+        "screenshotsDir": "screenshots",
+        "videosDir": "videos"
+    },
+    "browsers": [
+        "chromium",
+        "firefox",
+        "webkit"
+    ],
+    "mobileDevices": [
+        "iPhone 13 Pro",
+        "Pixel 5"
+    ]
+}

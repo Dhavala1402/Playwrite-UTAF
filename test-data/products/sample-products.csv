@@ -1,0 +1,11 @@
+id,name,price,category,inStock,description
+1,Laptop Pro 15,1299.99,Electronics,true,High-performance laptop for professionals
+2,Wireless Headphones,199.99,Electronics,true,Premium noise-cancelling headphones
+3,Coffee Maker Deluxe,89.99,Home & Kitchen,false,Programmable coffee maker with grinder
+4,Running Shoes,129.99,Sports & Outdoors,true,Lightweight running shoes for daily training
+5,Smartphone Case,24.99,Accessories,true,Protective case for latest smartphone models
+6,Gaming Mouse,79.99,Electronics,true,High-precision gaming mouse with RGB lighting
+7,Desk Organizer,34.99,Office Supplies,true,Bamboo desk organizer with multiple compartments
+8,Bluetooth Speaker,149.99,Electronics,false,Portable waterproof speaker with 20-hour battery
+9,Yoga Mat,39.99,Sports & Outdoors,true,Non-slip eco-friendly yoga mat
+10,Travel Backpack,89.99,Travel,true,Durable backpack with laptop compartment

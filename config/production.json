@@ -1,0 +1,29 @@
+{
+    "baseURL": "https://production.example.com",
+    "apiBaseURL": "https://api.example.com",
+    "timeout": 60000,
+    "retries": 1,
+    "headless": true,
+    "slowMo": 0,
+    "workers": 2,
+    "database": {
+        "host": "prod-db.example.com",
+        "port": 5432,
+        "name": "production_db",
+        "username": "prod_user"
+    },
+    "credentials": {
+        "admin": {
+            "username": "admin@production.com"
+        },
+        "user": {
+            "username": "user@production.com"
+        }
+    },
+    "screenshots": {
+        "mode": "off"
+    },
+    "videos": {
+        "mode": "off"
+    }
+}

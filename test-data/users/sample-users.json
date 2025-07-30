@@ -1,0 +1,50 @@
+[
+    {
+        "id": "user_001",
+        "username": "john.doe@test.com",
+        "password": "JohnPass123!",
+        "email": "john.doe@test.com",
+        "firstName": "John",
+        "lastName": "Doe",
+        "role": "user",
+        "status": "active",
+        "preferences": {
+            "theme": "light",
+            "language": "en",
+            "notifications": true
+        },
+        "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+        "id": "user_002",
+        "username": "jane.smith@test.com",
+        "password": "JanePass123!",
+        "email": "jane.smith@test.com",
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "role": "admin",
+        "status": "active",
+        "preferences": {
+            "theme": "dark",
+            "language": "en",
+            "notifications": false
+        },
+        "createdAt": "2024-01-02T00:00:00Z"
+    },
+    {
+        "id": "user_003",
+        "username": "mike.wilson@test.com",
+        "password": "MikePass123!",
+        "email": "mike.wilson@test.com",
+        "firstName": "Mike",
+        "lastName": "Wilson",
+        "role": "moderator",
+        "status": "active",
+        "preferences": {
+            "theme": "auto",
+            "language": "es",
+            "notifications": true
+        },
+        "createdAt": "2024-01-03T00:00:00Z"
+    }
+]

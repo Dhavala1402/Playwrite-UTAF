@@ -1,0 +1,24 @@
+{
+    "baseURL": "https://staging.example.com",
+    "apiBaseURL": "https://api-staging.example.com",
+    "timeout": 45000,
+    "retries": 3,
+    "headless": true,
+    "slowMo": 100,
+    "database": {
+        "host": "staging-db.example.com",
+        "port": 5432,
+        "name": "staging_db",
+        "username": "staging_user"
+    },
+    "credentials": {
+        "admin": {
+            "username": "admin@staging.com",
+            "password": "StagingAdmin123!"
+        },
+        "user": {
+            "username": "user@staging.com",
+            "password": "StagingUser123!"
+        }
+    }
+}
