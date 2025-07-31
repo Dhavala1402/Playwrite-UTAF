@@ -1,0 +1,84 @@
+{
+    "playwright.reuseBrowser": true,
+    "playwright.showTrace": true,
+    "typescript.preferences.includePackageJsonAutoImports": "on",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.spec.ts": "typescript",
+        "*.test.ts": "typescript",
+        "*.page.ts": "typescript"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/test-results": true,
+        "**/playwright-report": true,
+        "**/allure-results": true,
+        "**/allure-report": true,
+        "**/coverage": true,
+        "**/.git": true,
+        "CLEANUP_SUMMARY.md": true,
+        "FRAMEWORK_STATUS.md": true,
+        "IMPLEMENTATION_SUMMARY.md": true,
+        ".file-cleanup-monitor.md": true,
+        "docker-compose.yml": true,
+        "Dockerfile": true,
+        "fix-framework-errors.mjs": true,
+        "README_CLEAN.md": true,
+        "tests/api": true,
+        "tests/mobile": true,
+        "tests/web": true
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/test-results": true,
+        "**/playwright-report": true,
+        "**/allure-results": true,
+        "**/allure-report": true,
+        "CLEANUP_SUMMARY.md": true,
+        "FRAMEWORK_STATUS.md": true,
+        "IMPLEMENTATION_SUMMARY.md": true,
+        ".file-cleanup-monitor.md": true,
+        "docker-compose.yml": true,
+        "Dockerfile": true,
+        "fix-framework-errors.mjs": true,
+        "README_CLEAN.md": true,
+        "tests/api": true,
+        "tests/mobile": true,
+        "tests/web": true
+    },
+    "emmet.includeLanguages": {
+        "typescript": "html"
+    },
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "HACK",
+        "NOTE",
+        "XXX"
+    ],
+    "cSpell.words": [
+        "playwright",
+        "testid",
+        "allure",
+        "datetime",
+        "screenshot",
+        "viewport",
+        "headless",
+        "chromium",
+        "webkit",
+        "beforeeach",
+        "aftereach"
+    ]
+}

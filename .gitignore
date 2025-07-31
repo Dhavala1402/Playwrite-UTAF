@@ -47,7 +47,23 @@ logs/
 *.temp
 .cache/
 
-# Unwanted framework files
+# Prevent unwanted files from reappearing
+CLEANUP_SUMMARY.md
+FRAMEWORK_STATUS.md
+IMPLEMENTATION_SUMMARY.md
+.file-cleanup-monitor.md
+docker-compose.yml
+Dockerfile
+fix-framework-errors.mjs
+README_CLEAN.md
+
+# Prevent duplicate test directories
+tests/api/
+tests/mobile/
+tests/web/
+
+# Prevent config duplicates
+config/.env.example
 CLEANUP_SUMMARY.md
 FRAMEWORK_STATUS.md
 IMPLEMENTATION_SUMMARY.md
