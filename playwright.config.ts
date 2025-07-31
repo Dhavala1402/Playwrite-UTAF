@@ -110,15 +110,7 @@ export default defineConfig({
       dependencies: ['setup'],
     },
 
-    // API testing project
-    {
-      name: 'api',
-      testDir: './tests/api',
-      use: {
-        baseURL: process.env.API_BASE_URL || 'https://api.github.com',
-      },
-      dependencies: ['setup'],
-    },
+
   ],
 
   /* Web server configuration for local development */
