@@ -37,6 +37,7 @@ pipeline {
                     } else {
                         bat 'node -v && npm -v'
                         bat 'npm ci'
+                        bat 'npx tsc --version'
                     }
                 }
             }
