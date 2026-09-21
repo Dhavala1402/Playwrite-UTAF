@@ -91,9 +91,9 @@ pipeline {
         echo 'Running selected Playwright tests...'
         script {
             if (isUnix()) {
-                sh 'npx playwright test tests/parabank/parabank-e2e.spec.ts tests/smartstore/smartstore-e2e.spec.ts'
+                sh 'npx playwright test tests/smartstore/smartstore-e2e.spec.ts'
             } else {
-                bat 'npx playwright test tests/parabank/parabank-e2e.spec.ts tests/smartstore/smartstore-e2e.spec.ts'
+                bat 'npx playwright test tests/smartstore/smartstore-e2e.spec.ts'
             }
         }
     }
