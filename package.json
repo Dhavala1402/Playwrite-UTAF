@@ -41,7 +41,6 @@
     "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
     "setup": "npm run clean && npm run install:browsers && npm run type-check",
     "pretest": "npm run type-check",
-    "posttest": "npm run clean:reports",
     "env:check": "node -e \"console.log('Environment check passed')\"",
     "deps:check": "npm audit --audit-level moderate",
     "deps:update": "npm update"

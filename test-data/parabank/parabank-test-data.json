@@ -1,0 +1,43 @@
+{
+  "credentials": {
+    "username": "john",
+    "password": "demo"
+  },
+  "newAccount": {
+    "accountType": "1",
+    "fromAccountId": "13344"
+  },
+  "accountActivity": {
+    "transactionType": "Credit"
+  },
+  "transfer": {
+    "amount": "500",
+    "fromAccountId": "13344",
+    "toAccountId": "17451"
+  },
+  "billPay": {
+    "payee": {
+      "name": "abcd",
+      "street": "bangloreb",
+      "city": "anglre",
+      "state": "karnataka",
+      "zipCode": "506609",
+      "phoneNumber": "9833210090",
+      "accountNumber": "1000",
+      "verifyAccountNumber": "1000"
+    },
+    "amount": "200"
+  },
+  "findTransaction": {
+    "amount": "200"
+  },
+  "contactInfo": {
+    "lastName": "S",
+    "street": "banglore"
+  },
+  "loanRequest": {
+    "amount": "1001",
+    "downPayment": "10",
+    "fromAccountId": "17451"
+  }
+}

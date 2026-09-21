@@ -7,7 +7,6 @@ test.describe('Smoke Tests - Web Platform', () => {
     
     // Check page title
     await expect(page).toHaveTitle(/Example Domain/);
-    
     // Check page content
     await expect(page.locator('h1')).toContainText('Example Domain');
     

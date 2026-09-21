@@ -1,0 +1,20 @@
+{
+  "testSuiteId": "PARABANK-SUITE-01",
+  "testSuiteName": "ParaBank - Core Banking Workflows",
+  "domain": "parabank",
+  "description": "End-to-end regression suite covering ParaBank's core online banking workflows: login, account opening, funds transfer, bill payment, transaction search, profile update and loan request.",
+  "baseURL": "https://parabank.parasoft.com/parabank/index.htm",
+  "owner": "IGS QA Team",
+  "priority": "high",
+  "tags": ["@parabank", "@e2e", "@regression"],
+  "dataFile": "parabank-test-data.json",
+  "testCases": [
+    {
+      "testCaseId": "PARABANK-TC-001",
+      "title": "End-to-end banking workflow: open account, transfer funds, pay bill, update profile and request loan",
+      "description": "Validates the full ParaBank customer journey from login through account opening, funds transfer, bill payment, transaction search, contact info update, loan request and logout.",
+      "tags": ["@smoke", "@e2e"],
+      "enabled": true
+    }
+  ]
+}

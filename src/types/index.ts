@@ -91,6 +91,27 @@ export interface VisualTestOptions {
   };
 }
 
+export interface TestManifestCase {
+  testCaseId: string;
+  title: string;
+  description: string;
+  tags: string[];
+  enabled: boolean;
+}
+
+export interface TestManifest {
+  testSuiteId: string;
+  testSuiteName: string;
+  domain: string;
+  description: string;
+  baseURL: string;
+  owner: string;
+  priority: 'low' | 'medium' | 'high' | 'critical';
+  tags: string[];
+  dataFile: string;
+  testCases: TestManifestCase[];
+}
+
 export interface MobileTestOptions {
   device: string;
   orientation: 'portrait' | 'landscape';

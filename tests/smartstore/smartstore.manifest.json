@@ -1,0 +1,20 @@
+{
+  "testSuiteId": "SMARTSTORE-SUITE-01",
+  "testSuiteName": "SmartStore - Ecommerce Shopping Workflows",
+  "domain": "smartstore",
+  "description": "End-to-end regression suite covering SmartStore's core ecommerce shopping workflow: login, category browsing, product selection and add to cart.",
+  "baseURL": "https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/",
+  "owner": "IGS QA Team",
+  "priority": "high",
+  "tags": ["@smartstore", "@e2e", "@regression"],
+  "dataFile": "smartstore-test-data.json",
+  "testCases": [
+    {
+      "testCaseId": "SMARTSTORE-TC-001",
+      "title": "Login and add a product to cart from category browsing",
+      "description": "Validates that a registered customer can log in, browse a category, open a product and add it to the cart, confirming checkout becomes available.",
+      "tags": ["@smoke", "@e2e"],
+      "enabled": true
+    }
+  ]
+}

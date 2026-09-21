@@ -179,9 +179,9 @@ export class TestSetupUtils {
       // Take screenshot if requested
       if (options.takeScreenshot) {
         const screenshotName = options.screenshotName || `cleanup-${Date.now()}.png`;
-        await page.screenshot({ 
+        await page.screenshot({
           path: `screenshots/${screenshotName}`,
-          fullPage: true, 
+          fullPage: true,
         });
       }
 
@@ -232,8 +232,8 @@ export class TestSetupUtils {
       // Check for specific elements if provided
       if (healthChecks.elements) {
         for (const selector of healthChecks.elements) {
-          await page.waitForSelector(selector, { 
-            timeout: timeout - (Date.now() - startTime), 
+          await page.waitForSelector(selector, {
+            timeout: timeout - (Date.now() - startTime),
           });
         }
       }
