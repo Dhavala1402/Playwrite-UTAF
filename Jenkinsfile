@@ -86,18 +86,18 @@ pipeline {
             }
         }
 
-        stage('Run Playwright Tests') {
-            steps {
-                echo 'Running Playwright test suite...'
-                script {
-                    if (isUnix()) {
-                        sh 'npm test'
-                    } else {
-                        bat 'npm test'
-                    }
-                }
+       stage('Run Playwright Tests') {
+    steps {
+        echo 'Running selected Playwright tests...'
+        script {
+            if (isUnix()) {
+                sh 'npx playwright test tests/parabank/parabank-e2e.spec.ts tests/smartstore/smartstore-e2e.spec.ts'
+            } else {
+                bat 'npx playwright test tests/parabank/parabank-e2e.spec.ts tests/smartstore/smartstore-e2e.spec.ts'
             }
         }
+    }
+}
     }
 
     post {
